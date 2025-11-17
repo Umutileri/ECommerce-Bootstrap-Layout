@@ -18,6 +18,14 @@
 
 .navbar-brand,.btn-light i{
     color: var(--primary);
+    font-size: 1.2rem;
+
+}
+.navbar-brand i{
+    margin-right: 5px;
+}
+.navbar-brand:hover,.btn-light i:hover{
+    color: #5e064f;
 }
 
 .slider-nav{
@@ -133,4 +141,29 @@ footer .btn-icon{
 
 .rating-wrap .checked{
     color: #ffcc00;
+}
+
+.btn-details{
+    color: var(--primary);
+}
+
+.btn-outline-primary{
+    border-color: var(--primary);
+}
+
+.btn-outline-primary:hover{
+    background-color: var(--primary);
+    color: white;
+    border-color: var(--primary);
+}
+
+.btn-primary{
+    border-color: var(--primary);
+}
+
+.back{
+    color: var(--primary);
+}
+.back:hover{
+    color: black;
 }
