@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TechZone | Alışveriş Sepeti</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.8/css/bootstrap.min.css"
+      integrity="sha512-2bBQCjcnw658Lho4nlXJcc6WkV/UxpE/sAokbXPxQNGqmNdQrWqtw26Ns9kFF/yG792pKR1Sx8/Y1Lf1XN4GKA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body class="bg-light">
+    <header>
+      <section class="top-bar">
+        <div class="container">
+          <div class="row gy-2 align-items-center">
+            <div class="col-lg-2 col-sm-4 col-4">
+              <a href="index.html" class="navbar-brand"
+                ><i class="fa-solid fa-truck-fast"></i>E-Ticaret</a
+              >
+            </div>
+            <div class="col-lg-5 col-sm-8 col-8 order-lg-last">
+              <div class="text-end">
+                <a href="#" class="btn btn-light">
+                  <i class="fa fa-user"></i
+                  ><span class="ms-1 d-none d-sm-inline-block">Hesabım</span>
+                </a>
+                <a href="#" class="btn btn-light">
+                  <i class="fa fa-heart"></i
+                  ><span class="ms-1 d-none d-sm-inline-block">Listem</span>
+                </a>
+                <a href="shoping-card.html" class="btn btn-light">
+                  <i class="fa fa-shopping-cart"></i
+                  ><span class="ms-1 d-none d-sm-inline-block">Sepet</span>
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-5">
+              <form>
+                <div class="input-group">
+                  <input
+                    type="text"
+                    placeholder="Aradığınız ürünü, markayı veya anahtar kelimeyi yazın..."
+                    class="form-control"
+                  />
+                  <button class="btn btn-primary">
+                    <i class="fa fa-search"></i>
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </header>
+
+    <nav class="navbar navbar-dark bg-primary navbar-expand-lg">
+      <div class="container">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link ps-0" href="#">Akıllı Cihazlar</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Aksesuarlar</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Giyilebilir Teknoloji</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Ses & Görüntü</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Bilgisayar</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Kampanyalar
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="#">Haftanın İndirimleri</a>
+                </li>
+                <li><a class="dropdown-item" href="#">Stok Eritme</a></li>
+                <li>
+                  <a class="dropdown-item" href="#">Apple Fırsatları</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <section class="mt-3">
+      <div class="container">
+        <h3 class="mb-3">Sepetim (3 Ürün)</h3>
+        <div class="row">
+          <div class="col-lg-8">
+            <div class="alert alert-warning p-2">
+              🎉 1500₺ üzeri siparişlerinizde **Ücretsiz Kargo** fırsatı!
+            </div>
+            <div class="py-2">
+              <ul class="list-group">
+                <li class="py-3 mb-2 border-top list-group-item">
+                  <div class="row align-items-center">
+                    <div class="col-6">
+                      <div class="d-flex align-items-center">
+                        <img
+                          src="image/1.jpeg"
+                          alt="Watch SE GPS 40mm Starlight"
+                          style="width: 100px"
+                        />
+                        <div class="ms-3">
+                          <a class="text-decoration-none" href="#">
+                            <h6 class="mb-0">
+                              APPLE Watch Series 7 (Starlight) - 40mm GPS
+                            </h6>
+                          </a>
+                          <a class="text-decoration-none" href="#"
+                            ><i
+                              class="fa-solid fa-trash-can text-danger me-1"
+                            ></i
+                            ><small class="text-danger">Sil</small>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-4">
+                      <select class="form-select w-50">
+                        <option selected>1 Adet</option>
+                        <option value="2">2 Adet</option>
+                        <option value="3">3 Adet</option>
+                      </select>
+                    </div>
+                    <div class="col-2 text-end">
+                      <span class="d-block"><strong>₺15.999,00</strong></span>
+                      <small><del class="text-muted">₺19.999,00</del></small>
+                    </div>
+                  </div>
+                </li>
+
+                <li class="py-3 mb-2 border-top list-group-item">
+                  <div class="row align-items-center">
+                    <div class="col-6">
+                      <div class="d-flex align-items-center">
+                        <img
+                          src="image/4.jpeg"
+                          alt="iPhone 13 Pembe"
+                          style="
+                            width: 100px;
+                            height: 100px;
+                            object-fit: contain;
+                          "
+                        />
+                        <div class="ms-3">
+                          <a class="text-decoration-none" href="#">
+                            <h6 class="mb-0">
+                              Apple iPhone 13 (Pembe) - 128GB
+                            </h6>
+                          </a>
+                          <a class="text-decoration-none" href="#"
+                            ><i
+                              class="fa-solid fa-trash-can text-danger me-1"
+                            ></i
+                            ><small class="text-danger">Sil</small>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-4">
+                      <select class="form-select w-50">
+                        <option value="1">1 Adet</option>
+                        <option selected>2 Adet</option>
+                        <option value="3">3 Adet</option>
+                      </select>
+                    </div>
+                    <div class="col-2 text-end">
+                      <span class="d-block"><strong>₺51.998,00</strong></span>
+                      <small class="text-muted">Adet: ₺25.999</small>
+                    </div>
+                  </div>
+                </li>
+
+                <li class="py-3 mb-2 border-top list-group-item">
+                  <div class="row align-items-center">
+                    <div class="col-6">
+                      <div class="d-flex align-items-center">
+                        <img
+                          src="image/6.jpeg"
+                          alt="iPhone SE Kırmızı"
+                          style="
+                            width: 100px;
+                            height: 100px;
+                            object-fit: contain;
+                          "
+                        />
+                        <div class="ms-3">
+                          <a class="text-decoration-none" href="#">
+                            <h6 class="mb-0">
+                              Apple iPhone SE (Product Red) - 64GB
+                            </h6>
+                          </a>
+                          <a class="text-decoration-none" href="#"
+                            ><i
+                              class="fa-solid fa-trash-can text-danger me-1"
+                            ></i
+                            ><small class="text-danger">Sil</small>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-4">
+                      <select class="form-select w-50">
+                        <option value="1">1 Adet</option>
+                        <option value="2">2 Adet</option>
+                        <option selected>3 Adet</option>
+                      </select>
+                    </div>
+                    <div class="col-2 text-end">
+                      <span class="d-block"><strong>₺44.997,00</strong></span>
+                      <small class="text-muted">Adet: ₺14.999</small>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-lg-4">
+            <div class="my-3 card">
+              <div class="p-4 card-body">
+                <h2 class="h5">Sipariş Özeti</h2>
+                <hr class="mb-3 mt-1" />
+
+                <div class="d-flex justify-content-between mb-2">
+                  <span>Ara Toplam (KDV Hariç)</span>
+                  <span>₺112.994,00</span>
+                </div>
+                <div class="d-flex justify-content-between mb-2">
+                  <span>Kargo Ücreti</span>
+                  <span class="text-success">Ücretsiz</span>
+                </div>
+                <div class="d-flex justify-content-between mb-2">
+                  <span>KDV (%20)</span>
+                  <span>₺22.598,80</span>
+                </div>
+
+                <div
+                  class="d-flex justify-content-between mb-2 pt-2 border-top"
+                >
+                  <span class="h5">Toplam Tutar</span>
+                  <span class="h5"><strong>₺135.592,80</strong></span>
+                </div>
+
+                <div class="card-footer p-0 pt-3 border-0 bg-transparent">
+                  <a href="#" class="btn btn-primary w-100"
+                    >Ödeme Sayfasına Git</a
+                  >
+                </div>
+              </div>
+            </div>
+            <a href="index.html" class="btn btn-link text-decoration-none">
+              <i class="fa-solid fa-chevron-left me-2"></i>Alışverişe Devam Et
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="mt-3 py-3 bg-primary">
+      <div class="container">
+        <div class="row gy-2">
+          <div class="col-md-6 col-lg-4">
+            <form>
+              <div class="input-group">
+                <input
+                  type="email"
+                  class="form-control"
+                  placeholder="Özel Kampanyalardan Haberdar Olun"
+                />
+                <button type="button" class="btn btn-outline-warning">
+                  Abone Ol
+                </button>
+              </div>
+            </form>
+          </div>
+          <div class="col-md-6 col-lg-8">
+            <nav class="text-center text-md-end">
+              <a href="#" class="btn btn-icon btn-outline-warning">
+                <i class="fab fa-facebook"></i>
+              </a>
+              <a href="#" class="btn btn-icon btn-outline-warning">
+                <i class="fab fa-instagram"></i>
+              </a>
+              <a href="#" class="btn btn-icon btn-outline-warning">
+                <i class="fab fa-youtube"></i>
+              </a>
+              <a href="#" class="btn btn-icon btn-outline-warning">
+                <i class="fab fa-twitter"></i>
+              </a>
+            </nav>
+          </div>
+          <div class="col-12">
+            <p class="text-center text-md-start text-white">
+              &copy; 2025 Tüm hakları saklıdır. Güvenli Ödeme ve Hızlı
+              Kargo Garantisi.
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.8/js/bootstrap.min.js"
+      integrity="sha512-nKXmKvJyiGQy343jatQlzDprflyB5c+tKCzGP3Uq67v+lmzfnZUi/ZT+fc6ITZfSC5HhaBKUIvr/nTLCV+7F+Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+  </body>
+</html>
