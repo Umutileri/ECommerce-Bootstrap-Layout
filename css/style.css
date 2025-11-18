@@ -1,6 +1,22 @@
 :root{
     --primary: #7b0867;
 }
+/* Sayfa Yapılandırması */
+html,
+body {
+    height: 100%; /* HTML ve Body etiketlerinin tüm görüntüleme alanını kaplamasını sağlar */
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+
+section:not(.top-bar):not(.bg-primary) {
+    flex-grow: 1;
+}
+
 
 .top-bar{
     padding-top: 1rem;
@@ -19,7 +35,6 @@
 .navbar-brand,.btn-light i{
     color: var(--primary);
     font-size: 1.2rem;
-
 }
 .navbar-brand i{
     margin-right: 5px;
@@ -89,6 +104,7 @@ footer .btn-icon{
     border-radius: 50%;
     font-size: 1.1rem;
 }
+
 
 #ürün_cards .shadow{
   box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px !important;
@@ -166,4 +182,31 @@ footer .btn-icon{
 }
 .back:hover{
     color: black;
+}
+.account-btn{
+    transition: all .7s ease;
+    
+}
+.account-btn:hover {
+    color: var(--primary) !important;
+    background-color: white !important;
+    border-color: var(--primary) !important;
+}
+
+.btn-hesap {
+    font-size: 1.2rem;
+    padding: 10px !important;
+    border-radius: 10px !important;
+}
+
+#account-page .card-title{
+    font-size: 1.2rem;
+}
+#account-page .card-title i{
+    font-size: 1.3rem;
+}
+
+.pass-forgot{
+    
+    float: right;
 }
